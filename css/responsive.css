@@ -1,0 +1,19 @@
+/* responsive.css - Media queries and mobile-specific tweaks
+   Comments: Keeps responsive behavior separate from base styles as requested. */
+
+/* tablets */
+@media (max-width: 900px){
+  .card-grid{grid-template-columns:repeat(2,1fr)} /* 2-column on medium screens */
+}
+
+/* mobile: show 1-column stacked cards for homepage sections (show 2 cards visually by limiting content in HTML) */
+@media (max-width: 640px){
+  .nav-list{display:none;position:absolute;right:16px;top:64px;background:rgba(255,255,255,0.98);padding:12px;border-radius:10px;box-shadow:0 12px 30px rgba(0,0,0,0.06)}
+  .nav-list.open{display:flex;flex-direction:column;gap:8px}
+  .hamburger{display:inline-block}
+  .card-grid{grid-template-columns:1fr} /* 1-column stacked cards on mobile */
+  .card img{height:200px} /* slightly taller image for mobile readability */
+  .section-head{flex-direction:row;align-items:center}
+  .view-all{margin-top:14px}
+}
+/* End of responsive.css */
