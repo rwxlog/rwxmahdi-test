@@ -1,6 +1,11 @@
-/* style.css - base styles for the site
-   Comments: This file contains core visual styles for layout, cards, header, and footer.
-   Responsive rules are kept in css/responsive.css */
+/* 
+  style.css - base styles for the site
+  Comments: This file contains core visual styles for layout, cards, header, and footer.
+  Responsive rules are kept in css/responsive.css 
+
+*/
+
+
 :root{
   --bg: #faf7f0; /* off-white background for the whole site */
   --text: #222;
