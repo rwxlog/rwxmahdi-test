@@ -25,8 +25,10 @@ html,body{margin:0;padding:0;font-family:system-ui, -apple-system, 'Segoe UI', R
 /* Sticky header: semi-transparent background so content can be faintly seen underneath */
 /* Comment: header remains sticky across entire site */
 .site-header{
-  position:sticky;
+  position:fixed;
   top:0;
+  left:0;
+  right:0;
   z-index:1000;
   background: rgba(255,255,255,0.82); /* semi-transparent */
   border-bottom:1px solid var(--border);
@@ -43,8 +45,8 @@ html,body{margin:0;padding:0;font-family:system-ui, -apple-system, 'Segoe UI', R
 /* Hamburger button hidden on desktop */
 .hamburger{display:none;border:1px solid var(--border);background:transparent;padding:6px 10px;border-radius:8px;cursor:pointer}
 
-/* Main spacing */
-.main{padding:20px}
+/* Main/container */
+.main{padding:20px;margin-top: 60px;}
 
 /* Section header */
 .section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
