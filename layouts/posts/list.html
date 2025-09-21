@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <div class="card-grid">
+    {{ $paginator := .Paginate (.Pages.ByDate.Reverse) 6 }}
+    {{ range $paginator.Pages }}
+      <article class="card">
+        {{ with .Params.image }}
+          <img src="{{ . | relURL }}" alt="">
+        {{ end }}
+        <div class="card-body">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          {{ with .Date }}<p class="meta">{{ .Format "Jan 2, 2006" }}</p>{{ end }}
+          {{ with .Params.meta }}<p class="meta">{{ . }}</p>{{ end }}
+          {{ with .Summary }}<p class="excerpt">{{ . }}</p>{{ end }}
+          <a class="read-more" href="{{ .RelPermalink }}">Read more →</a>
+        </div>
+      </article>
+    {{ end }}
+  </div>
+
+  <!-- Pagination -->
+  <nav class="pagination">
+    {{ if $paginator.HasPrev }}
+      <a class="prev" href="{{ $paginator.Prev.URL }}">← Previous</a>
+    {{ end }}
+    
+    {{ range $paginator.Pagers }}
+      <a href="{{ .URL }}" class="{{ if eq . $paginator }}active{{ end }}">
+        {{ .PageNumber }}
+      </a>
+    {{ end }}
+
+    {{ if $paginator.HasNext }}
+      <a class="next" href="{{ $paginator.Next.URL }}">Next →</a>
+    {{ end }}
+  </nav>
+{{ end }}
