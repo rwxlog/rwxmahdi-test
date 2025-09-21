@@ -18,6 +18,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Placeholder for removed/unused code or assets.
 ---
 
+## [1.4.0] - 2025-09-20  
+### Changed  
+- Converted project to Hugo for improved SEO and content management.
+
+### Fixed
+- Posts minor fix
+
 ## [1.3.1] - 2025-09-12
 ### Fixed
 - Header now uses a fixed position, ensuring it stays visible while scrolling across all pages.
