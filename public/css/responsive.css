@@ -1,5 +1,5 @@
 /* responsive.css - Media queries and mobile-specific tweaks
-   Comments: Keeps responsive behavior separate from base styles as requested. */
+   Comments: Keeps responsive behavior separate from base styles.*/
 
 /* tablets */
 @media (max-width: 900px){

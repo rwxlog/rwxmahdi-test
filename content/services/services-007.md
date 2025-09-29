@@ -1,8 +1,8 @@
 ---
 title: "Service 007 — A Simple Intro"
-image: "images/img7.svg"
+image: "images/upcoming-service.svg"
 date: 2025-01-30
-categories: ["faith"]
+categories: [""]
 summary: "This is a short summary of service 007 for homepage."
 ---
 

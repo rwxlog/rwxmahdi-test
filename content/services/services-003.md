@@ -1,8 +1,8 @@
 ---
 title: "Service 003 — A Simple Intro"
-image: "images/img3.svg"
+image: "images/upcoming-service.svg"
 date: 2025-01-10
-categories: ["faith"]
+categories: [""]
 summary: "This is a short summary of service 003 for homepage."
 ---
 

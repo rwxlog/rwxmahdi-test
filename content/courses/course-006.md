@@ -1,8 +1,8 @@
 ---
 title: "Course 006 — Coming Soon"
-image: "images/img6.svg"
+image: "images/upcoming-course.svg"
 date: 2025-01-25
-categories: ["worldview"]
+categories: [""]
 summary: "This is a short summary of course 006 for homepage."
 ---
 

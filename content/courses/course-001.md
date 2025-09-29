@@ -1,9 +1,9 @@
 ---
-title: "Course 001 — A Simple Intro"
-image: "images/img1.svg"
+title: "Fluent English"
+image: "images/fluent-english.svg"
 date: 2025-01-01
-categories: ["faith"]
-summary: "This is a short summary of course 001 for homepage."
+categories: [""]
+summary: "Learn English. Be Fluent in Your Conversation."
 ---
 
 Your full post content here...

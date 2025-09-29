@@ -1,8 +1,8 @@
 ---
 title: "Post 006 — A Simple Intro"
-image: "images/img6.svg"
+image: "images/upcoming-post.svg"
 date: 2025-01-25
-categories: ["faith"]
+categories: [""]
 summary: "This is a short summary of post 006 for homepage."
 ---
 

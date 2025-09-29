@@ -177,11 +177,11 @@
       <description>This is a short summary of service 002 for homepage.</description>
     </item>
     <item>
-      <title>Course 001 — A Simple Intro</title>
+      <title>Fluent English</title>
       <link>http://localhost:1313/courses/course-001/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/courses/course-001/</guid>
-      <description>This is a short summary of course 001 for homepage.</description>
+      <description>Learn English. Be Fluent in Your Conversation.</description>
     </item>
     <item>
       <title>Post 001 — A Simple Intro</title>
