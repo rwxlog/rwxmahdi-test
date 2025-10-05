@@ -48,6 +48,65 @@ html,body{margin:0;padding:0;font-family:system-ui, -apple-system, 'Segoe UI', R
 /* Main/container */
 .main{padding:20px;margin-top: 60px;}
 
+/* Welcome Section */
+.welcome-section {
+  background-color: #faf7f0;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.welcome-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.welcome-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary {
+  background-color: #e0e0e0;
+  color: #333;
+  margin-left: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: #ccc;
+}
+
 /* Section header */
 .section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
 .section-head h2{margin:0}
@@ -76,6 +135,68 @@ html,body{margin:0;padding:0;font-family:system-ui, -apple-system, 'Segoe UI', R
 .card .excerpt{margin-bottom:12px;color:var(--muted)}
 
 .read-more{display:inline-block;text-decoration:none;padding:8px 12px;border-radius:8px;background:var(--accent);color:white}
+
+/* About Page Styles */
+.about {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #faf7f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  line-height: 1.7;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.about h1,
+.about h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #222;
+  position: relative;
+}
+
+.about h2::after,
+.about h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #007acc;
+  margin-top: 8px;
+  border-radius: 3px;
+}
+
+.about p {
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+}
+
+.about ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 18px;
+}
+
+.about ul li {
+  padding: 8px 0;
+  padding-left: 28px;
+  position: relative;
+  font-size: 1.05rem;
+}
+
+.about ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #007acc;
+  font-size: 1.1rem;
+}
+
+.about strong {
+  color: #005f99;
+}
 
 /* Pagination */
 .pagination{margin-top:18px;display:flex;gap:8px;justify-content:center}

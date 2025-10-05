@@ -15,5 +15,8 @@
   .card img{height:200px} /* slightly taller image for mobile readability */
   .section-head{flex-direction:row;align-items:center}
   .view-all{margin-top:14px}
+  .btn {margin-top: 5px;} /* Welcome section buttons */
+  .about {padding: 25px;margin: 50px 15px;}
+  .about h1,.about h2 {font-size: 1.6em;}
 }
 /* End of responsive.css */
