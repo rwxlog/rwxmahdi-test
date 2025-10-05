@@ -58,8 +58,7 @@ With this course, you can:
 ---
 
 ## Contact Information
-
-* 📜 **Instructor:** Muhammad Mahdi
+For registration or inquiries, please contact Muhammad Mahdi:
 * 📜 **WhatsApp:** +8801951992050
 * 📜 **Telegram:** [t.me/rwxme](https://t.me/rwxme)
 * 📜 **Email:** rwxmahdi@gmail.com
